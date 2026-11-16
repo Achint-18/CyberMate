@@ -20,7 +20,9 @@ init_db()
 app = FastAPI(
     title="CyberMate Expert System API",
     description="Defensive Cybersecurity Threat Detection & Diagnosis Expert System powered by a deterministic rule engine.",
-    version="1.0.0"
+    version="1.0.0",
+    docs_url="/api/docs",
+    openapi_url="/api/openapi.json"
 )
 
 # CORS configuration
